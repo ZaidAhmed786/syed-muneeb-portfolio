@@ -9,7 +9,7 @@ export default function Service1() {
           <div className="row align-items-end">
             <div className="col-lg-7 me-auto">
               <h3 className="ds-3 mt-3 mb-3 text-primary">What do I offer?</h3>
-              <span className="fs-5 fw-medium text-200">
+              <span className="fs-5 fw-medium text-light">
                 My journey started with a fascination for design and technology,
                 <br />
                 leading me to specialize in UI/UX design
@@ -43,7 +43,7 @@ export default function Service1() {
                     href="/#"
                     className="d-md-flex d-block ps-lg-10 align-items-center justify-content-end w-100"
                   >
-                    <p className="service-card-text my-3">
+                    <p className="service-card-text my-3 text-light">
                       Designing visually stunning and user-friendly interfaces
                       for web <br />
                       and mobile applications.
@@ -72,7 +72,7 @@ export default function Service1() {
                     href="/#"
                     className="d-md-flex d-block ps-lg-10 align-items-center justify-content-end w-100"
                   >
-                    <p className="service-card-text my-3">
+                    <p className="service-card-text my-3 text-light">
                       Designing intuitive and appealing mobile applications for
                       both <br />
                       iOS and Android platforms.
@@ -101,7 +101,7 @@ export default function Service1() {
                     href="/#"
                     className="d-md-flex d-block ps-lg-10 align-items-center justify-content-end w-100"
                   >
-                    <p className="service-card-text my-3">
+                    <p className="service-card-text my-3 text-light">
                       Developing cohesive visual branding that resonates with
                       your <br />
                       target audience.
@@ -130,7 +130,7 @@ export default function Service1() {
                     href="/#"
                     className="d-md-flex d-block ps-lg-10 align-items-center justify-content-end w-100"
                   >
-                    <p className="service-card-text my-3">
+                    <p className="service-card-text my-3 text-light">
                       Crafting responsive and engaging websites that align with
                       your <br />
                       brand and business goals.

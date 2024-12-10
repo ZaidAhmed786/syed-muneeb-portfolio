@@ -18,31 +18,31 @@ export default function OffCanvas({ isOffCanvas, handleOffCanvas }: any) {
         </div>
         <div className="offCanvas__side-info mb-30">
           <div className="contact-list mb-30">
-            <p className="fs-6 fw-medium text-200 mb-5">
+            <p className="fs-6 fw-medium text-light mb-5">
               I'm always excited to take on new projects and collaborate with
               innovative minds.
             </p>
             <div className="mb-3">
-              <span className="text-400 fs-5">Phone Number</span>
+              <span className="text-light fs-5">Phone Number</span>
               <p className="mb-0">+92 318 4228836</p>
             </div>
             <div className="mb-3">
-              <span className="text-400 fs-5">Email</span>
+              <span className="text-light fs-5">Email</span>
               <p className="mb-0">muneebsyed607@gmail.com</p>
             </div>
             <div className="mb-3">
-              <span className="text-400 fs-5">Slack</span>
+              <span className="text-light fs-5">Slack</span>
               <Link href="https://zolaratech.slack.com/team/U081PKZRB1T">
                 <p className="mb-0">Syed Muneeb</p>
               </Link>
             </div>
             <div className="mb-3">
-              <span className="text-400 fs-5">Address</span>
+              <span className="text-light fs-5">Address</span>
               <p className="mb-0">lalazar phase 2 house number 194B1</p>
             </div>
           </div>
           <div className="contact-list">
-            <p className="text-400 fs-5 mb-2">Social</p>
+            <p className="text-light fs-5 mb-2">Social</p>
             <div className="d-md-flex d-none gap-3">
               <Link href="mailto:muneebsyed607@gmail.com">
                 <svg

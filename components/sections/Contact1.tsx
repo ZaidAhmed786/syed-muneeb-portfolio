@@ -10,7 +10,7 @@ export default function Contact1() {
       >
         <div className="container position-relative z-1">
           <h3 className="ds-3 mt-3 mb-3 text-primary">Get in touch</h3>
-          <span className="fs-5 fw-medium text-200">
+          <span className="fs-5 fw-medium text-light">
             I'm always excited to take on new projects and collaborate with
             innovative minds. If you
             <br />
@@ -24,7 +24,7 @@ export default function Contact1() {
                   <i className="ri-phone-fill text-primary fs-26" />
                 </div>
                 <div className="ps-3">
-                  <span className="text-400 fs-5">Phone Number</span>
+                  <span className="text-light fs-5">Phone Number</span>
                   <h6 className="mb-0">+92 318 4228836</h6>
                 </div>
               </div>
@@ -33,7 +33,7 @@ export default function Contact1() {
                   <i className="ri-mail-fill text-primary fs-26" />
                 </div>
                 <div className="ps-3">
-                  <span className="text-400 fs-5">Email</span>
+                  <span className="text-light fs-5">Email</span>
                   <h6 className="mb-0">muneebsyed607@gmail.com</h6>
                 </div>
                 {/* <Link
@@ -57,7 +57,7 @@ export default function Contact1() {
                   </svg>
                 </div>
                 <div className="ps-3">
-                  <span className="text-400 fs-5">Slack</span>
+                  <span className="text-light fs-5">Slack</span>
                   {/* <Link href="https://zolaratech.slack.com/team/U081PKZRB1T"> */}
                   <p className="mb-0">Syed Muneeb</p>
                   {/* </Link> */}
@@ -73,7 +73,7 @@ export default function Contact1() {
                   <i className="ri-map-2-fill text-primary fs-26" />
                 </div>
                 <div className="ps-3">
-                  <span className="text-400 fs-5">Address</span>
+                  <span className="text-light fs-5">Address</span>
                   <h6 className="mb-0">lalazar phase 2 house number 194B1</h6>
                 </div>
                 {/* <Link

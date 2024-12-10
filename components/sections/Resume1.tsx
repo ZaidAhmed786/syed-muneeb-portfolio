@@ -13,7 +13,7 @@ export default function Resume1() {
           <div className="row align-items-end">
             <div className="col-lg-7 me-auto">
               <h3 className="ds-3 mt-3 mb-3 text-primary">My Education</h3>
-              <span className="fs-5 fw-medium text-200">
+              <span className="fs-5 fw-medium text-light">
                 I believe that working hard and trying to learn every day will
                 <br />
                 make me improve in satisfying my customers.
@@ -64,7 +64,7 @@ export default function Resume1() {
                           2014-2016
                         </p> */}
                         <h5>INTER : ICS STATS</h5>
-                        {/* <p className="text-300 mb-0">Design Academy</p> */}
+                        {/* <p className="text-light mb-0">Design Academy</p> */}
                       </div>
                       {/* <h3 className="text-linear-1 ms-auto fw-semibold">
                         4.9<span className="fs-4 fw-bold">/5</span>
@@ -94,7 +94,7 @@ export default function Resume1() {
                           2012-2013
                         </p> */}
                         <h5>PGC</h5>
-                        {/* <p className="text-300 mb-0">Coursera</p> */}
+                        {/* <p className="text-light mb-0">Coursera</p> */}
                       </div>
                       {/* <h3 className="text-linear-1 ms-auto fw-semibold">
                         4.8<span className="fs-4 fw-bold">/5</span>
@@ -108,7 +108,7 @@ export default function Resume1() {
                           2012-2013
                         </p> */}
                         <h5>MATRIC : THE EDUCATORS</h5>
-                        {/* <p className="text-300 mb-0">Coursera</p> */}
+                        {/* <p className="text-light mb-0">Coursera</p> */}
                       </div>
                       {/* <h3 className="text-linear-1 ms-auto fw-semibold">
                         4.8<span className="fs-4 fw-bold">/5</span>
@@ -136,28 +136,28 @@ export default function Resume1() {
                       2019 - Present
                     </p>
                     <h5>Senior UI/UX Designer</h5>
-                    <p className="text-300 mb-0">Leader in Creative team</p>
+                    <p className="text-light mb-0">Leader in Creative team</p>
                   </div>
                   <div className="resume-card-item px-4 py-3 mt-5">
                     <p className="fw-extra-bold text-linear-1 mb-2">
                       2016 - 2019
                     </p>
                     <h5>UI/UX Designer at BOS Agency</h5>
-                    <p className="text-300 mb-0">Tech Startup</p>
+                    <p className="text-light mb-0">Tech Startup</p>
                   </div>
                   <div className="resume-card-item px-4 py-3 mt-5">
                     <p className="fw-extra-bold text-linear-1 mb-2">
                       2014-2016
                     </p>
                     <h5>Freelance UI/UX Designer</h5>
-                    <p className="text-300 mb-0">Self-Employed</p>
+                    <p className="text-light mb-0">Self-Employed</p>
                   </div>
                   <div className="resume-card-item px-4 py-3 mt-4">
                     <p className="fw-extra-bold text-linear-1 mb-2">
                       2012 - 2014
                     </p>
                     <h5>Junior UI Designer</h5>
-                    <p className="text-300 mb-0">Web Solutions team</p>
+                    <p className="text-light mb-0">Web Solutions team</p>
                   </div>
                 </div>
               </div>

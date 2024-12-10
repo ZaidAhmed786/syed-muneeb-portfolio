@@ -13,8 +13,8 @@ export default function Work() {
 								<div className="col-lg-8 mx-lg-auto">
 									<div className="text-center">
 										<Link href="/#" className="btn btn-gradient d-inline-block text-uppercase"> recent Work </Link>
-										<h3 className="ds-3 mt-3 mb-4 text-dark">Explore <span className="text-300">My Latest Work and Discover the</span> Craftsmanship Behind <span className="text-300">Each Design</span></h3>
-										<p className="text-300 fs-5">
+										<h3 className="ds-3 mt-3 mb-4 text-dark">Explore <span className="text-light">My Latest Work and Discover the</span> Craftsmanship Behind <span className="text-light">Each Design</span></h3>
+										<p className="text-light fs-5">
 											Explore my latest work and discover the craftsmanship behind each design: <br />
 											a detailed look into how I bring innovation and creativity to life
 										</p>
@@ -47,15 +47,15 @@ Draper University</h3>
 															<i className="ri-arrow-right-up-line" />
 														</Link>
 													</div>
-													<p className="text-300 mb-lg-auto mb-md-4 mb-3">I've enhanced Draper University's website by fixing frontend issues and creating new course pages</p>
+													<p className="text-light mb-lg-auto mb-md-4 mb-3">I've enhanced Draper University's website by fixing frontend issues and creating new course pages</p>
 													<div className="d-md-flex content">
 														<p className="mb-0 fs-7 text-dark text-uppercase w-40">
 															Tools
 														</p>
-														<p className="mb-0 card__description text-300 fs-6 mb-0 ">
+														<p className="mb-0 card__description text-light fs-6 mb-0 ">
 React Js,   Redux,    JavaScript,  Firebase,    HTML/CSS.
 														</p>
-														{/* <p className="mb-0 card__description text-300 fs-6 mb-0">
+														{/* <p className="mb-0 card__description text-light fs-6 mb-0">
 															Conceptual JSC
 														</p> */}
 													</div>
@@ -63,7 +63,7 @@ React Js,   Redux,    JavaScript,  Firebase,    HTML/CSS.
 														<p className="mb-0 fs-7 text-dark text-uppercase w-40">
 															Completion Time
 														</p>
-														<p className="mb-0 card__description text-300 fs-6 mb-0">
+														<p className="mb-0 card__description text-light fs-6 mb-0">
 															6 months
 														</p>
 													</div>
@@ -71,7 +71,7 @@ React Js,   Redux,    JavaScript,  Firebase,    HTML/CSS.
 														<p className="mb-0 fs-7 text-dark text-uppercase w-40">
 															Tools
 														</p>
-														<p className="mb-0 card__description text-300 fs-6 mb-0">
+														<p className="mb-0 card__description text-light fs-6 mb-0">
 															Figma, Sketch, Photoshop, Framer
 														</p>
 													</div> */}
@@ -109,7 +109,7 @@ React Js,   Redux,    JavaScript,  Firebase,    HTML/CSS.
                             <i className="ri-arrow-right-up-line" />
                           </Link>
                         </div>
-                        <p className="text-300 mb-lg-auto mb-md-4 mb-3">
+                        <p className="text-light mb-lg-auto mb-md-4 mb-3">
                           Unveil the future in a web project seamlessly
                           intertwining artificial intelligence, Web 3.0, gaming
                           tech, and next-level entertainment, inviting you into
@@ -120,7 +120,7 @@ React Js,   Redux,    JavaScript,  Firebase,    HTML/CSS.
                           <p className="mb-0 fs-7 text-dark text-uppercase w-40">
                             Tools
                           </p>
-                          <p className="mb-0 card__description text-300 fs-6 mb-0">
+                          <p className="mb-0 card__description text-light fs-6 mb-0">
                             JavaScript Svelte JS HTML/CSS Gsap-Animation
                           </p>
                         </div>
@@ -158,7 +158,7 @@ React Js,   Redux,    JavaScript,  Firebase,    HTML/CSS.
                             <i className="ri-arrow-right-up-line" />
                           </Link>
                         </div>
-                        <p className="text-300 mb-lg-auto mb-md-4 mb-3">
+                        <p className="text-light mb-lg-auto mb-md-4 mb-3">
                           Embark on a visual journey into the future of finance
                           with CommonCoin's website, a digital currency hub
                           designed to redefine the future of finance through
@@ -169,7 +169,7 @@ React Js,   Redux,    JavaScript,  Firebase,    HTML/CSS.
                           <p className="mb-0 fs-7 text-dark text-uppercase w-40">
                             Tools
                           </p>
-                          <p className="mb-0 card__description text-300 fs-6 mb-0">
+                          <p className="mb-0 card__description text-light fs-6 mb-0">
                             JavaScript Svelte JS HTML/CSS
                           </p>
                         </div>
@@ -207,7 +207,7 @@ React Js,   Redux,    JavaScript,  Firebase,    HTML/CSS.
                             <i className="ri-arrow-right-up-line" />
                           </Link>
                         </div>
-                        <p className="text-300 mb-lg-auto mb-md-4 mb-3">
+                        <p className="text-light mb-lg-auto mb-md-4 mb-3">
                           A futuristic portfolio merging futuristic animations,
                           artificial intelligence and smart tech, elevating the
                           boundless creativity of a visionary artist.
@@ -217,7 +217,7 @@ React Js,   Redux,    JavaScript,  Firebase,    HTML/CSS.
                           <p className="mb-0 fs-7 text-dark text-uppercase w-40">
                             Tools
                           </p>
-                          <p className="mb-0 card__description text-300 fs-6 mb-0">
+                          <p className="mb-0 card__description text-light fs-6 mb-0">
                             React Js Redux JavaScript Axios HTML/CSS
                           </p>
                         </div>
@@ -239,7 +239,7 @@ React Js,   Redux,    JavaScript,  Firebase,    HTML/CSS.
 											<div className="content text-center mx-auto d-flex align-items-center">
 												<span className="ds-3 count text-primary fw-medium my-0">+<span className="odometer ds-1 text-dark fw-semibold">12</span></span>
 												<div className="text-start ms-2">
-													<p className="fs-5 mb-0 text-300">Year of</p>
+													<p className="fs-5 mb-0 text-light">Year of</p>
 													<p className="fs-5 mb-0 fw-bold">Experience</p>
 												</div>
 											</div>
@@ -250,7 +250,7 @@ React Js,   Redux,    JavaScript,  Firebase,    HTML/CSS.
 											<div className="content text-center mx-auto d-flex align-items-center">
 												<span className="ds-3 count text-primary fw-medium my-0">+<span className="odometer ds-1 text-dark fw-semibold">250</span></span>
 												<div className="text-start ms-2">
-													<p className="fs-5 mb-0 text-300">Projects</p>
+													<p className="fs-5 mb-0 text-light">Projects</p>
 													<p className="fs-5 mb-0 fw-bold">Completed</p>
 												</div>
 											</div>
@@ -261,7 +261,7 @@ React Js,   Redux,    JavaScript,  Firebase,    HTML/CSS.
 											<div className="content text-center mx-auto d-flex align-items-center">
 												<span className="ds-3 count text-primary fw-medium my-0">+<span className="odometer ds-1 text-dark fw-semibold">680</span></span>
 												<div className="text-start ms-2">
-													<p className="fs-5 mb-0 text-300">Satisfied</p>
+													<p className="fs-5 mb-0 text-light">Satisfied</p>
 													<p className="fs-5 mb-0 fw-bold">Happy Clients</p>
 												</div>
 											</div>
@@ -272,7 +272,7 @@ React Js,   Redux,    JavaScript,  Firebase,    HTML/CSS.
 											<div className="content text-center mx-auto d-flex align-items-center">
 												<span className="ds-3 count text-primary fw-medium my-0">+<span className="odometer ds-1 text-dark fw-semibold">18</span></span>
 												<div className="text-start ms-2">
-													<p className="fs-5 mb-0 text-300">Awards</p>
+													<p className="fs-5 mb-0 text-light">Awards</p>
 													<p className="fs-5 mb-0 fw-bold">Won Received</p>
 												</div>
 											</div>
@@ -286,7 +286,7 @@ React Js,   Redux,    JavaScript,  Firebase,    HTML/CSS.
         {/* <section id="contact" className="section-contact-1 bg-900 position-relative pt-150 pb-lg-250 pb-150 overflow-hidden">
 						<div className="container position-relative z-1">
 							<h3 className="ds-3 mt-3 mb-3 text-primary">Get in touch</h3>
-							<span className="fs-5 fw-medium text-200">
+							<span className="fs-5 fw-medium text-light">
 								I'm always excited to take on new projects and collaborate with innovative minds. If you
 								<br />
 								have a project in mind or just want to chat about design, feel free to reach out!
@@ -298,7 +298,7 @@ React Js,   Redux,    JavaScript,  Firebase,    HTML/CSS.
 											<i className="ri-phone-fill text-primary fs-26" />
 										</div>
 										<div className="ps-3">
-											<span className="text-400 fs-5">Phone Number</span>
+											<span className="text-light fs-5">Phone Number</span>
 											<h6 className="mb-0">+92 318 4228836</h6>
 										</div>
 										<Link href="/tel:+92 318 4228836" className="position-absolute top-0 start-0 w-100 h-100" />
@@ -308,7 +308,7 @@ React Js,   Redux,    JavaScript,  Firebase,    HTML/CSS.
 											<i className="ri-mail-fill text-primary fs-26" />
 										</div>
 										<div className="ps-3">
-											<span className="text-400 fs-5">Email</span>
+											<span className="text-light fs-5">Email</span>
 											<h6 className="mb-0">muneebsyed607@gmail.com</h6>
 										</div>
 										<Link href="/mailto:muneebsyed607@gmail.com" className="position-absolute top-0 start-0 w-100 h-100" />
@@ -318,7 +318,7 @@ React Js,   Redux,    JavaScript,  Firebase,    HTML/CSS.
 											<i className="ri-skype-fill text-primary fs-26" />
 										</div>
 										<div className="ps-3">
-											<span className="text-400 fs-5">Skype</span>
+											<span className="text-light fs-5">Skype</span>
 											<h6 className="mb-0">WilliamDesignUX</h6>
 										</div>
 										<Link href="/skype:SKYPENAME?add" className="position-absolute top-0 start-0 w-100 h-100" />
@@ -328,7 +328,7 @@ React Js,   Redux,    JavaScript,  Firebase,    HTML/CSS.
 											<i className="ri-map-2-fill text-primary fs-26" />
 										</div>
 										<div className="ps-3">
-											<span className="text-400 fs-5">Address</span>
+											<span className="text-light fs-5">Address</span>
 											<h6 className="mb-0">lalazar phase 2 house number 194B1</h6>
 										</div>
 										<Link href="/https://maps.google.com/maps?q=1st+avenue,New+York" className="position-absolute top-0 start-0 w-100 h-100" />
