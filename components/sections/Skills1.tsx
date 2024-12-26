@@ -4,7 +4,7 @@ import CountUp from 'react-countup'
 export default function Skills1() {
 	return (
     <>
-      <section className="section-skills-1 position-relative section-padding bg-900">
+      <section className="section-skills-1 position-relative section-padding bg-black">
         <div className="container">
           <div className="row">
             <div className="text-center mb-7">

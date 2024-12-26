@@ -1,10 +1,17 @@
+"use client";
 
-import Link from "next/link"
-
+import Link from "next/link";
 export default function Home1() {
-	return (
+  return (
     <>
-      <section className="section-hero-1 position-relative pt-200 pb-120 overflow-hidden bg-dark">
+      <section className="section-hero-1 position-relative pt-200 pb-120 overflow-hidden">
+        {/* Background Video */}
+        <video className="background-video" autoPlay loop muted playsInline>
+          <source src="/assets/vedios/vedio3.mp4" type="video/mp4" />
+          Your browser does not support the video tag.
+        </video>
+
+        {/* Content Section */}
         <div className="container position-relative z-3">
           <div className="row">
             <div className="col-lg-6 col-md-12">
@@ -18,14 +25,6 @@ export default function Home1() {
                 the world of design, I've honed my skills to create impactful
                 and memorable designs that resonate with audiences
               </p>
-              {/* <Link
-                href="/assets/resume.pdf"
-                className="btn btn-gradient me-2"
-                target="_blank"
-              >
-                Download CV
-                <i className="ri-download-line ms-2" />
-              </Link> */}
               <Link
                 href="/#contact"
                 className="btn btn-outline-secondary d-inline-flex align-items-center"
@@ -37,8 +36,7 @@ export default function Home1() {
                 +5 years with professional design software
               </p>
               <div className="d-flex gap-3">
-                <div className="brand-logo p-2 icon-shape rounded-3 bg-900 ">
-                  {/* <img src="/assets/imgs/hero/hero-1/brand-1.png" alt="brand" /> */}
+                <div className="brand-logo p-2 icon-shape rounded-3 bg-900">
                   <span className="text-light">React js</span>
                 </div>
                 <div className="brand-logo p-2 icon-shape rounded-3 bg-900">
@@ -70,7 +68,6 @@ export default function Home1() {
                 <div className="brand-logo p-2 icon-shape rounded-3 bg-900">
                   <span className="text-light">Eslint, Jenkins</span>
                 </div>
-
                 <div className="brand-logo p-2 icon-shape rounded-3 bg-900">
                   <span className="text-light">Figma</span>
                 </div>
@@ -94,7 +91,7 @@ export default function Home1() {
         </div>
         <div className="shape-1 position-absolute bottom-0 start-50 z-1 ms-10 d-none d-md-block">
           <img
-            className="position-relative z-1 filter-gray"
+            className="position-relative z-1 filter-gray "
             src="/assets/imgs/hero/hero-1/man.png"
             alt="man"
           />
@@ -111,6 +108,19 @@ export default function Home1() {
           // data-background="assets/imgs/hero/hero-1/background.png"
         /> */}
       </section>
+      <style jsx>{`
+        .background-video {
+          position: absolute;
+          top: 0;
+          left: 0;
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+          // opacity: 50%;
+
+          z-index: -1;
+        }
+      `}</style>
     </>
   );
 }

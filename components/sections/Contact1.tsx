@@ -6,7 +6,7 @@ export default function Contact1() {
     <>
       <section
         id="contact"
-        className="section-contact-1 bg-900 position-relative pt-150 pb-lg-250 pb-150 overflow-hidden"
+        className="section-contact-1 position-relative pt-150 pb-lg-250 pb-150 overflow-hidden bg-black"
       >
         <div className="container position-relative z-1">
           <h3 className="ds-3 mt-3 mb-3 text-primary">Get in touch</h3>
@@ -172,9 +172,9 @@ export default function Contact1() {
             </div>
           </div>
         </div>
-        <div className="scroll-move-right position-absolute bottom-0 start-50 translate-middle-x bg-900 overflow-hidden">
+        <div className="scroll-move-right position-absolute bottom-0 start-50 translate-middle-x bg-black overflow-hidden">
           <div className="wow img-custom-anim-top">
-            <h3 className="stroke fs-280 text-lowercase text-900 mb-0 lh-1">
+            <h3 className="stroke fs-150 text-lowercase text-900 mb-2 lh-1">
               Syed Muneeb
             </h3>
           </div>

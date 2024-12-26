@@ -6,7 +6,7 @@ export default function Resume1() {
     <>
       <section
         id="Education"
-        className="section-resume-1 position-relative pt-150 overflow-hidden"
+        className="section-resume-1 position-relative pt-150 overflow-hidden bg-black"
         data-background="assets/imgs/projects/projects-1/background.png"
       >
         <div className="container">

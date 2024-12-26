@@ -47,7 +47,7 @@ export default function Footer1() {
             </div>
           </div>
           <div
-            className="position-absolute top-0 start-0 w-100 h-100 z-0"
+            className="position-absolute top-0 start-0 w-100 h-100 z-0 "
             data-background="assets/imgs/footer-1/background.png "
           />
         </div>
