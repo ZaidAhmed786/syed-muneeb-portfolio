@@ -92,16 +92,16 @@ export default function Home1() {
               </div>
             </div>
             <div className="col-lg-6 col-md-12">
-              <div className="shape-1  d-none d-md-block">
+              <div className="shape-1  d-none d-md-block d-flex justify-content-center">
                 <img
-                  style={{ filter: "drop-shadow(green 0px 0px 0.75rem)" }}
-                  className=" filter-gray"
+                  // style={{ filter: "drop-shadow(green 0px 0px 0.75rem)" }}
+                  className=" img-fluid filter-gray"
                   src="/assets/imgs/hero/hero-1/man.png"
                   alt="man"
                 />
                 {/* <div className="position-absolute top-50 start-0 translate-middle z-0 mt-8 ms-10 ps-8">
             <img
-              className="ribbonRotate"
+              className="ribbonRotate "
               src="/assets/imgs/hero/hero-1/decorate.png"
               alt=""
             />
