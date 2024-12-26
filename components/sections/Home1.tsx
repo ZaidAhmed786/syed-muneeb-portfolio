@@ -7,7 +7,7 @@ export default function Home1() {
       <section className="section-hero-1 position-relative pt-200 pb-120 overflow-hidden">
         {/* Background Video */}
         <video className="background-video" autoPlay loop muted playsInline>
-          <source src="/assets/vedios/vedio3.mp4" type="video/mp4" />
+          <source src="/assets/vedios/vedio4.webm" type="video/mp4" />
           Your browser does not support the video tag.
         </video>
 
@@ -20,10 +20,14 @@ export default function Home1() {
                 <span className="text-primary"> Muneeb</span>
               </h1>
               <p className="text-light mb-6">
-                a passionate graphic designer with a love for transforming ideas
-                into captivating visual stories. With 4 years of experience in
-                the world of design, I've honed my skills to create impactful
-                and memorable designs that resonate with audiences
+                A highly skilled Full Stack Developer and UI/UX Designer with a
+                strong commitment to delivering seamless and visually engaging
+                digital solutions. With over 4 years of experience in web
+                development and design, I excel at creating robust applications
+                and user-centric interfaces that drive exceptional user
+                experiences. My expertise lies in blending innovative
+                technologies with modern design principles to craft solutions
+                that are both functional and aesthetically pleasing.
               </p>
               <Link
                 href="/#contact"
@@ -87,22 +91,25 @@ export default function Home1() {
                 </div>
               </div>
             </div>
-          </div>
-        </div>
-        <div className="shape-1 position-absolute bottom-0 start-50 z-1 ms-10 d-none d-md-block">
-          <img
-            className="position-relative z-1 filter-gray "
-            src="/assets/imgs/hero/hero-1/man.png"
-            alt="man"
-          />
-          <div className="position-absolute top-50 start-0 translate-middle z-0 mt-8 ms-10 ps-8">
+            <div className="col-lg-6 col-md-12">
+              <div className="shape-1  d-none d-md-block">
+                <img
+                  className=" filter-gray "
+                  src="/assets/imgs/hero/hero-1/man.png"
+                  alt="man"
+                />
+                {/* <div className="position-absolute top-50 start-0 translate-middle z-0 mt-8 ms-10 ps-8">
             <img
               className="ribbonRotate"
               src="/assets/imgs/hero/hero-1/decorate.png"
               alt=""
             />
+          </div> */}
+              </div>
+            </div>
           </div>
         </div>
+
         {/* <div
           className="position-absolute top-0 start-0 w-100 h-100 filter-invert bg-dark"
           // data-background="assets/imgs/hero/hero-1/background.png"
@@ -116,7 +123,7 @@ export default function Home1() {
           width: 100%;
           height: 100%;
           object-fit: cover;
-          // opacity: 50%;
+          opacity: 15%;
 
           z-index: -1;
         }
