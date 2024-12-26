@@ -14,7 +14,7 @@ export default function Home1() {
         {/* Content Section */}
         <div className="container position-relative z-3">
           <div className="row">
-            <div className="col-lg-6 col-md-12">
+            <div className="col-lg-6 col-md-12 mt-10">
               <span className="text-light">👋 Hello there! I'm </span>
               <h1 className="ds-2 mb-3">
                 <span className="text-primary"> Muneeb</span>
@@ -94,7 +94,8 @@ export default function Home1() {
             <div className="col-lg-6 col-md-12">
               <div className="shape-1  d-none d-md-block">
                 <img
-                  className=" filter-gray "
+                  style={{ filter: "drop-shadow(green 0px 0px 0.75rem)" }}
+                  className=" filter-gray"
                   src="/assets/imgs/hero/hero-1/man.png"
                   alt="man"
                 />
