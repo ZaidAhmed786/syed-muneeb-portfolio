@@ -3878,7 +3878,7 @@ textarea.form-control {
   transition: 0.4s;
 }
 .section-service-1 .single-service-card-1:hover {
-  background-color: var(--tc-theme-primary-1);
+  background-color: rgba(84, 247, 81, 0.62);
   transition: 0.4s;
 }
 .section-service-1 .single-service-card-1:hover .service-card-details .service-card-title a {

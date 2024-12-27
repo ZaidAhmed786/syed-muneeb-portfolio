@@ -5,7 +5,7 @@ import CountUp from 'react-countup'
 export default function Static1() {
 	return (
     <>
-      <div className="section-static-1 position-relative overflow-hidden z-0 py-8 bg-black">
+      <div className="section-static-1 position-relative overflow-hidden z-0 py-8 ">
         <div className="container">
           <div className="inner">
             <div className="row align-items-center justify-content-between">

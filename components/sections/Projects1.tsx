@@ -11,7 +11,7 @@ export default function Projects1() {
     <>
       <div
         id="Portfolio"
-        className="section-projects-1 position-relative pt-120 pb-6 bg-black"
+        className="section-projects-1 position-relative pt-120 pb-6 "
       >
         <div className="container">
           <div className="row align-items-end">

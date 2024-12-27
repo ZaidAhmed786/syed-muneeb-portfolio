@@ -1,9 +1,7 @@
-
-import Layout from "@/components/layout/Layout"
-import Link from "next/link"
+import Layout from "@/components/layout/Layout";
+import Link from "next/link";
 export default function Work() {
-
-	return (
+  return (
     <>
       {/* <Layout headerStyle={1} footerStyle={1}> */}
       <div>
@@ -28,7 +26,7 @@ export default function Work() {
                 <div className="cards">
                   {/* prettier-ignore */}
                   <div className="card-custom" data-index={0}>
-											<div className="card__inner bg-6 p-lg-6 p-md-4 p-3">
+											<div className="card__inner bg-black p-lg-6 p-md-4 p-3">
 												<div className="card__image-container zoom-img position-relative">
 													<img style={{
 														
@@ -79,7 +77,7 @@ React Js,   Redux,    JavaScript,  Firebase,    HTML/CSS.
 											</div>
 										</div>
                   <div className="card-custom" data-index={0}>
-                    <div className="card__inner bg-6 p-lg-6 p-md-4 p-3">
+                    <div className="card__inner bg-black p-lg-6 p-md-4 p-3">
                       <div className="card__image-container zoom-img position-relative">
                         <img
                           className="card__image"
@@ -128,7 +126,7 @@ React Js,   Redux,    JavaScript,  Firebase,    HTML/CSS.
                     </div>
                   </div>
                   <div className="card-custom" data-index={0}>
-                    <div className="card__inner bg-6 p-lg-6 p-md-4 p-3">
+                    <div className="card__inner bg-black p-lg-6 p-md-4 p-3">
                       <div className="card__image-container zoom-img position-relative">
                         <img
                           className="card__image"
@@ -177,7 +175,7 @@ React Js,   Redux,    JavaScript,  Firebase,    HTML/CSS.
                     </div>
                   </div>
                   <div className="card-custom" data-index={0}>
-                    <div className="card__inner bg-6 p-lg-6 p-md-4 p-3">
+                    <div className="card__inner bg-black p-lg-6 p-md-4 p-3">
                       <div className="card__image-container zoom-img position-relative">
                         <img
                           className="card__image"
@@ -230,7 +228,7 @@ React Js,   Redux,    JavaScript,  Firebase,    HTML/CSS.
           </div>
         </section>
         {/*Static 1*/}
-        {/* <div className="section-static-1 position-relative overflow-hidden z-0 py-8 bg-6">
+        {/* <div className="section-static-1 position-relative overflow-hidden z-0 py-8 bg-black">
 						<div className="container">
 							<div className="inner">
 								<div className="row align-items-center justify-content-between">

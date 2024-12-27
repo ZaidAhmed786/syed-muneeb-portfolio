@@ -6,10 +6,6 @@ export default function Home1() {
     <>
       <section className="section-hero-1 position-relative pt-200 pb-120 overflow-hidden">
         {/* Background Video */}
-        <video className="background-video" autoPlay loop muted playsInline>
-          <source src="/assets/vedios/vedio4.webm" type="video/mp4" />
-          Your browser does not support the video tag.
-        </video>
 
         {/* Content Section */}
         <div className="container position-relative z-3">
@@ -19,7 +15,7 @@ export default function Home1() {
               <h1 className="ds-2 mb-3">
                 <span className="text-primary"> Muneeb</span>
               </h1>
-              <p className="text-light mb-6">
+              <h6 className="text-light mb-6 lh-lg">
                 A highly skilled Full Stack Developer and UI/UX Designer with a
                 strong commitment to delivering seamless and visually engaging
                 digital solutions. With over 4 years of experience in web
@@ -28,7 +24,7 @@ export default function Home1() {
                 experiences. My expertise lies in blending innovative
                 technologies with modern design principles to craft solutions
                 that are both functional and aesthetically pleasing.
-              </p>
+              </h6>
               <Link
                 href="/#contact"
                 className="btn btn-outline-secondary d-inline-flex align-items-center"
@@ -94,12 +90,13 @@ export default function Home1() {
             <div className="col-lg-6 col-md-12">
               <div className="shape-1  d-none d-md-block d-flex justify-content-center">
                 <img
+                  // style={{ borderRadius: "70%" }}
                   // style={{ filter: "drop-shadow(green 0px 0px 0.75rem)" }}
-                  className=" img-fluid filter-gray"
+                  className=" img-fluid"
                   src="/assets/imgs/hero/hero-1/man.png"
                   alt="man"
                 />
-                {/* <div className="position-absolute top-50 start-0 translate-middle z-0 mt-8 ms-10 ps-8">
+                {/* <div className="position-absolute filter-gray  top-50 start-0 translate-middle z-0 mt-8 ms-10 ps-8">
             <img
               className="ribbonRotate "
               src="/assets/imgs/hero/hero-1/decorate.png"
@@ -116,19 +113,6 @@ export default function Home1() {
           // data-background="assets/imgs/hero/hero-1/background.png"
         /> */}
       </section>
-      <style jsx>{`
-        .background-video {
-          position: absolute;
-          top: 0;
-          left: 0;
-          width: 100%;
-          height: 100%;
-          object-fit: cover;
-          opacity: 15%;
-
-          z-index: -1;
-        }
-      `}</style>
     </>
   );
 }

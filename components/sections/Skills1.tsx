@@ -4,7 +4,7 @@ import CountUp from 'react-countup'
 export default function Skills1() {
 	return (
     <>
-      <section className="section-skills-1 position-relative section-padding bg-black">
+      <section className="section-skills-1 position-relative section-padding">
         <div className="container">
           <div className="row">
             <div className="text-center mb-7">
@@ -25,14 +25,14 @@ export default function Skills1() {
                     <CountUp
                       className="odometer fw-semibold"
                       enableScrollSpy={true}
-                      end={98}
+                      end={95}
                     />
                     %
                   </h3>
                   <p className="text-light fw-medium text-uppercase">Figma</p>
                 </div>
               </div>
-              <div className="skills">
+              {/* <div className="skills">
                 <div className="skills-icon mb-5">
                   <img src="/assets/imgs/skills/skills-1/icon-2.png" alt="" />
                 </div>
@@ -41,7 +41,7 @@ export default function Skills1() {
                     <CountUp
                       className="odometer fw-semibold"
                       enableScrollSpy={true}
-                      end={82}
+                      end={85}
                     />
                     %
                   </h3>
@@ -49,7 +49,7 @@ export default function Skills1() {
                     Adobe XD
                   </p>
                 </div>
-              </div>
+              </div> */}
               <div className="skills">
                 <div className="skills-icon mb-5">
                   <img src="/assets/imgs/skills/skills-1/icon-3.png" alt="" />
@@ -68,7 +68,7 @@ export default function Skills1() {
                   </p>
                 </div>
               </div>
-              <div className="skills">
+              {/* <div className="skills">
                 <div className="skills-icon mb-5">
                   <img src="/assets/imgs/skills/skills-1/icon-4.png" alt="" />
                 </div>
@@ -83,7 +83,7 @@ export default function Skills1() {
                   </h3>
                   <p className="text-light fw-medium text-uppercase">Sketch </p>
                 </div>
-              </div>
+              </div> */}
               <div className="skills">
                 <div className="skills-icon mb-5">
                   <img src="/assets/imgs/skills/skills-1/icon-5.png" alt="" />
@@ -93,7 +93,7 @@ export default function Skills1() {
                     <CountUp
                       className="odometer fw-semibold"
                       enableScrollSpy={true}
-                      end={60}
+                      end={95}
                     />
                     %
                   </h3>
@@ -102,7 +102,7 @@ export default function Skills1() {
                   </p>
                 </div>
               </div>
-              <div className="skills">
+              {/* <div className="skills">
                 <div className="skills-icon mb-5">
                   <img src="/assets/imgs/skills/skills-1/icon-6.png" alt="" />
                 </div>
@@ -111,14 +111,14 @@ export default function Skills1() {
                     <CountUp
                       className="odometer fw-semibold"
                       enableScrollSpy={true}
-                      end={72}
+                      end={96}
                     />
                     %
                   </h3>
                   <p className="text-light fw-medium text-uppercase">Webflow</p>
                 </div>
-              </div>
-              <div className="skills">
+              </div> */}
+              {/* <div className="skills">
                 <div className="skills-icon mb-5">
                   <img src="/assets/imgs/skills/skills-1/icon-7.png" alt="" />
                 </div>
@@ -133,7 +133,7 @@ export default function Skills1() {
                   </h3>
                   <p className="text-light fw-medium text-uppercase">Framer</p>
                 </div>
-              </div>
+              </div> */}
             </div>
             <div className="text-center">
               <p className="fs-5 text-light mb-0">
