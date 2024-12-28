@@ -164,13 +164,13 @@ export default function Resume1() {
             </div> */}
           </div>
         </div>
-        <div className="scroll-move-right position-relative pb-160 pt-lg-150">
+        {/* <div className="scroll-move-right position-relative pb-160 pt-lg-150">
           <div className="d-flex align-items-center gap-5 wow img-custom-anim-top position-absolute top-50 start-50 translate-middle">
             <h3 className="stroke fs-150 text-uppercase text-white">
               Syed Muneeb
             </h3>
           </div>
-        </div>
+        </div> */}
       </section>
     </>
   );

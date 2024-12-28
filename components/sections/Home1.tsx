@@ -4,7 +4,7 @@ import Link from "next/link";
 export default function Home1() {
   return (
     <>
-      <section className="section-hero-1 position-relative pt-200 pb-120 overflow-hidden">
+      <section className="section-hero-1 position-relative pt-100 pb-120 overflow-hidden">
         {/* Background Video */}
 
         {/* Content Section */}
@@ -18,7 +18,7 @@ export default function Home1() {
               <h6 className="text-light mb-6 lh-lg">
                 A highly skilled Full Stack Developer and UI/UX Designer with a
                 strong commitment to delivering seamless and visually engaging
-                digital solutions. With over 4 years of experience in web
+                digital solutions. With over 5+ years of experience in web
                 development and design, I excel at creating robust applications
                 and user-centric interfaces that drive exceptional user
                 experiences. My expertise lies in blending innovative

@@ -172,13 +172,13 @@ export default function Contact1() {
             </div>
           </div>
         </div>
-        <div className="scroll-move-right position-absolute bottom-0 start-50 translate-middle-x  overflow-hidden">
+        {/* <div className="scroll-move-right position-absolute bottom-0 start-50 translate-middle-x  overflow-hidden">
           <div className="wow img-custom-anim-top">
             <h3 className="stroke fs-150 text-lowercase text-900 mb-2 lh-1">
               Syed Muneeb
             </h3>
           </div>
-        </div>
+        </div> */}
       </section>
     </>
   );

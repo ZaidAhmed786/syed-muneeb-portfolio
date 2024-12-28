@@ -32,7 +32,7 @@ export default function Skills1() {
                   <p className="text-light fw-medium text-uppercase">Figma</p>
                 </div>
               </div>
-              {/* <div className="skills">
+              <div className="skills">
                 <div className="skills-icon mb-5">
                   <img src="/assets/imgs/skills/skills-1/icon-2.png" alt="" />
                 </div>
@@ -49,7 +49,7 @@ export default function Skills1() {
                     Adobe XD
                   </p>
                 </div>
-              </div> */}
+              </div>
               <div className="skills">
                 <div className="skills-icon mb-5">
                   <img src="/assets/imgs/skills/skills-1/icon-3.png" alt="" />
@@ -68,24 +68,30 @@ export default function Skills1() {
                   </p>
                 </div>
               </div>
-              {/* <div className="skills">
-                <div className="skills-icon mb-5">
-                  <img src="/assets/imgs/skills/skills-1/icon-4.png" alt="" />
+              <div className="skills">
+                <div className="skills-icon mb-5  mt-5 ">
+                  <img
+                    className="img-fluid"
+                    src="/assets/imgs/skills/skills-1/icon-4.jpg"
+                    alt=""
+                  />
                 </div>
-                <div className="skills-ratio text-center">
+                <div className="skills-ratio text-center ">
                   <h3 className="count fw-semibold my-0">
                     <CountUp
                       className="odometer fw-semibold"
                       enableScrollSpy={true}
-                      end={58}
+                      end={95}
                     />
                     %
                   </h3>
-                  <p className="text-light fw-medium text-uppercase">Sketch </p>
+                  <p className="text-light fw-medium text-uppercase">
+                    ReactJs{" "}
+                  </p>
                 </div>
-              </div> */}
+              </div>
               <div className="skills">
-                <div className="skills-icon mb-5">
+                <div className="skills-icon mb-5 ">
                   <img src="/assets/imgs/skills/skills-1/icon-5.png" alt="" />
                 </div>
                 <div className="skills-ratio text-center">
@@ -102,9 +108,14 @@ export default function Skills1() {
                   </p>
                 </div>
               </div>
-              {/* <div className="skills">
-                <div className="skills-icon mb-5">
-                  <img src="/assets/imgs/skills/skills-1/icon-6.png" alt="" />
+              <div className="skills">
+                <div className="skills-icon mb-5 my-0 d-flex justify-content-center">
+                  <img
+                    style={{ width: "40%" }}
+                    className=""
+                    src="/assets/imgs/skills/skills-1/icon-6.png"
+                    alt=""
+                  />
                 </div>
                 <div className="skills-ratio text-center">
                   <h3 className="count fw-semibold my-0">
@@ -115,10 +126,10 @@ export default function Skills1() {
                     />
                     %
                   </h3>
-                  <p className="text-light fw-medium text-uppercase">Webflow</p>
+                  <p className="text-light fw-medium text-uppercase">NodeJs</p>
                 </div>
-              </div> */}
-              {/* <div className="skills">
+              </div>
+              <div className="skills">
                 <div className="skills-icon mb-5">
                   <img src="/assets/imgs/skills/skills-1/icon-7.png" alt="" />
                 </div>
@@ -133,7 +144,7 @@ export default function Skills1() {
                   </h3>
                   <p className="text-light fw-medium text-uppercase">Framer</p>
                 </div>
-              </div> */}
+              </div>
             </div>
             <div className="text-center">
               <p className="fs-5 text-light mb-0">

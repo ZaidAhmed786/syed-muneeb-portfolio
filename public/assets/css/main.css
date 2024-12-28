@@ -2247,7 +2247,7 @@ textarea {
 }
 
 .border-linear-1 {
-  background: linear-gradient(var(--tc-neutral-900), var(--tc-neutral-900)) padding-box, var(--tc-linear-1) border-box;
+  background: linear-gradient(var(--tc-neutral-900), var(--tc-neutral-900)) padding-box, var(--tc-linear-4) border-box;
   border-bottom: 1px solid transparent;
 }
 
@@ -3914,7 +3914,7 @@ textarea.form-control {
 }
 .section-resume-1 .resume-card .resume-card-body .resume-card-item {
   border: 1px solid transparent;
-  background: linear-gradient(var(--tc-bg-1), var(--tc-bg-1)) padding-box, linear-gradient(to bottom, #6e4ef2, transparent) border-box;
+  background: linear-gradient(var(--tc-bg-1), var(--tc-bg-1)) padding-box, linear-gradient(to bottom, #0bf40b, transparent) border-box;
   border-radius: 16px;
   transition: all 0.3s ease-in-out;
 }
