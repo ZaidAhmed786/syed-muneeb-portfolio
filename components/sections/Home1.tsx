@@ -27,9 +27,9 @@ export default function Home1() {
               </h6>
               <Link
                 href="/#contact"
-                className="btn btn-outline-secondary d-inline-flex align-items-center"
+                className="btn btn-gradient d-inline-flex align-items-center"
               >
-                <span>Hire me</span>
+                <span className="">Hire me</span>
                 <i className="ri-arrow-right-line ms-2" />
               </Link>
               <p className="text-light mt-6 mb-3">

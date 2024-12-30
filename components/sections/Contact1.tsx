@@ -20,7 +20,7 @@ export default function Contact1() {
           <div className="row mt-8">
             <div className="col-lg-4 d-flex flex-column">
               <div className="d-flex align-items-center mb-4 position-relative d-inline-flex">
-                <div className="bg-white icon-flip position-relative icon-shape icon-xxl border-linear-2 border-2 rounded-4">
+                <div className="bg-white icon-flip position-relative icon-shape icon-xxl border-linear-1 border-2 rounded-4">
                   <i className="ri-phone-fill text-primary fs-26" />
                 </div>
                 <div className="ps-3">
@@ -29,7 +29,7 @@ export default function Contact1() {
                 </div>
               </div>
               <div className="d-flex align-items-center mb-4 position-relative d-inline-flex">
-                <div className="bg-white icon-flip position-relative icon-shape icon-xxl border-linear-2 border-2 rounded-4">
+                <div className="bg-white icon-flip position-relative icon-shape icon-xxl border-linear-1 border-2 rounded-4">
                   <i className="ri-mail-fill text-primary fs-26" />
                 </div>
                 <div className="ps-3">
@@ -42,7 +42,7 @@ export default function Contact1() {
                 /> */}
               </div>
               <div className="d-flex align-items-center mb-4 position-relative d-inline-flex">
-                <div className="bg-white icon-flip position-relative icon-shape icon-xxl border-linear-2 border-2 rounded-4">
+                <div className="bg-white icon-flip position-relative icon-shape icon-xxl border-linear-1 border-2 rounded-4">
                   <svg
                     className="text-primary"
                     xmlns="http://www.w3.org/2000/svg"
@@ -69,7 +69,7 @@ export default function Contact1() {
                 />
               </div>
               <div className="d-flex align-items-center mb-4 position-relative d-inline-flex">
-                <div className="bg-white icon-flip position-relative icon-shape icon-xxl border-linear-2 border-2 rounded-4">
+                <div className="bg-white icon-flip position-relative icon-shape icon-xxl border-linear-1 border-2 rounded-4">
                   <i className="ri-map-2-fill text-primary fs-26" />
                 </div>
                 <div className="ps-3">

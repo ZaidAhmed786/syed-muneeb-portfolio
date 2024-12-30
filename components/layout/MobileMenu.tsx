@@ -17,7 +17,7 @@ export default function MobileMenu({ isMobileMenu, handleMobileMenu }: any) {
               className="d-flex main-logo align-items-center d-inline-flex"
               href="/"
             >
-              <img src="/assets/imgs/footer-1/logo.svg" alt="infinia" />
+              <img src="/assets/imgs/template/favicon.svg" alt="infinia" />
               <span className="fs-4 ms-2 text-dark">Syed Muneeb</span>
             </Link>
             <div

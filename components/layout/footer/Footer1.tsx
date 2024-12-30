@@ -4,14 +4,14 @@ export default function Footer1() {
   return (
     <>
       <footer>
-        <div className="section-footer position-relative pt-60 pb-60 bg-secondary-1">
+        <div className="section-footer position-relative pt-60 pb-60 bg-dark">
           <div className="container position-relative z-1">
             <div className="text-center">
               <Link
                 className="d-flex main-logo align-items-center d-inline-flex"
                 href="/"
               >
-                <img src="/assets/imgs/footer-1/logo.svg" alt="infinia" />
+                <img src="/assets/imgs/template/favicon.svg" alt="infinia" />
                 <span className="fs-4 ms-2 text-white-keep">Syed Muneeb</span>
               </Link>
               <div className="navigation d-none d-md-flex align-items-center justify-content-center flex-wrap gap-4 my-4">

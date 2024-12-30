@@ -9,7 +9,7 @@ export default function Header1({ scroll, isMobileMenu, handleMobileMenu, isOffC
     <>
       <header>
         <nav
-          className={`navbar navbar-expand-lg navbar-light w-100 flex-nowrap z-999 p-0 ${
+          className={`navbar navbar-expand-lg navbar-light w-100 flex-nowrap z-999 p-0 bg-dark${
             scroll ? "navbar-stick" : ""
           }`}
           style={{

@@ -46,7 +46,7 @@ export default function Skills1() {
                     %
                   </h3>
                   <p className="text-light fw-medium text-uppercase">
-                    Adobe XD
+                    JavaScript
                   </p>
                 </div>
               </div>
@@ -111,7 +111,7 @@ export default function Skills1() {
               <div className="skills">
                 <div className="skills-icon mb-5 my-0 d-flex justify-content-center">
                   <img
-                    style={{ width: "70%" }}
+                    style={{ width: "60%" }}
                     className=""
                     src="/assets/imgs/skills/skills-1/icon-6.png"
                     alt=""
