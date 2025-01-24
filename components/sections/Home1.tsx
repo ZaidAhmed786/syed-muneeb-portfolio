@@ -91,7 +91,9 @@ export default function Home1() {
               <div className="shape-1  d-none d-md-block d-flex justify-content-center">
                 <img
                   // style={{ borderRadius: "70%" }}
-                  // style={{ filter: "drop-shadow(green 0px 0px 0.75rem)" }}
+                  style={{
+                    filter: "drop-shadow(0 0 15px rgba(0, 255, 0, 0.8));",
+                  }}
                   className=" img-fluid"
                   src="/assets/imgs/hero/hero-1/man.png"
                   alt="man"
