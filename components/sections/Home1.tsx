@@ -87,7 +87,7 @@ export default function Home1() {
                 </div>
               </div>
             </div>
-            <div className="col-lg-6 col-md-12">
+            <div className="col-lg-6 col-md-12 mt-10">
               <div className="shape-1  d-none d-md-block d-flex justify-content-center">
                 <img
                   // style={{ borderRadius: "70%" }}
